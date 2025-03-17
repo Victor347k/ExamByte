@@ -8,12 +8,12 @@ public class WebController {
 
     @GetMapping("/")
     public String index() {
-        return "index"; // Lädt index.html
+        return "index";
     }
 
     @GetMapping("/test")
     public String test() {
-        return "test"; // Lädt test.html
+        return "test";
     }
 
     @GetMapping("/test-management")
